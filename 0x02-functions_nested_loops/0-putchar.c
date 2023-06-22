@@ -1,20 +1,14 @@
+#include <stdio.h>
 #include "main.h"
-#include <unistd.h>
+
 /**
- * maib - Entry point
- *
- * Description: [rints _putchar using _putchar prototype
- *
- * Return Always 0 (Success)
- */
+* main- Entry point*
+* Description: Print character using _putchar
+*
+* Return: Always 0 (success)
+*/
 int main(void)
 {
-	char str[] = "_putchar";
-	int ch;
-
-	for (ch = 0; ch < 8; ch++)
-		_putchar(str[ch]);
-	_putchar('\n');
-
+	printf("_putchar\n");
 	return (0);
 }
